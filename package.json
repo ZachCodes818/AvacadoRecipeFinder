@@ -1,0 +1,25 @@
+{
+  "name": "avocado",
+  "version": "1.0.0",
+  "description": "avocado api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "avocado",
+    "api",
+    "node"
+  ],
+  "author": "Zach Jayson",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
