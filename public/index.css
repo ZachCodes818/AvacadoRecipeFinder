@@ -1,11 +1,15 @@
 h3, h4 {
     text-align: center;
     color: green;
-   
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h2 {
+  text-transform: capitalize;
 }
 
 hr {
-    width: 30%;
+    width: 10%;
 }
 
 .avo {
@@ -55,3 +59,27 @@ background-color: green;
   
      
   }
+
+.left {
+  display: flex;
+}
+.left button {
+  width: 40% !important;
+  margin: 0 2.5%;
+
+}
+
+.mainContainer {
+  height: 150px;
+  
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+   
